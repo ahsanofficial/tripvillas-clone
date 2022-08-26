@@ -1,0 +1,304 @@
+{
+  "TopDestinationsData":[
+      {
+          "image": "Images/TopDestinations/alibag.jpg",
+          "heading":"Alibag",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/bali.jpg",
+          "heading":"Bali",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/barcelona.jpg",
+          "heading":"Barcelona",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/cape_town.jpg",
+          "heading":"Cape Town",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/coorg.jpg",
+          "heading":"Coorg",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/himachal_pradesh.jpg",
+          "heading":"Himachal Pradesh",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/kandy.jpg",
+          "heading":"Kandy",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/kerala.jpg",
+          "heading":"Kerala",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/lonavala.jpg",
+          "heading":"Lonavala",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/orlando.jpg",
+          "heading":"Orlando",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/paris.jpg",
+          "heading":"Paris",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/pattaya.jpg",
+          "heading":"Pattaya",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/rome.jpg",
+          "heading":"Rome",
+          "text":"Vacation Rentals"
+      },
+      {
+          "image": "Images/TopDestinations/sydney.jpg",
+          "heading":"Sydney",
+          "text":"Vacation Rentals"
+      }
+  ],
+  "CommunitiesData":[
+    {
+        "image": "Images/Communities/tata.jpeg",
+        "heading": "Tata Rio De Goa",
+        "text": "Dabolim, Goa"
+    },
+    {
+        "image": "Images/Communities/kenisha.jpeg",
+        "heading": "Kenisha Holiday Homes",
+        "text": "Pawasalwadi, Maharashtra"
+    },
+    {
+        "image": "Images/Communities/white1.jpeg",
+        "heading": "White Villas Shahapur",
+        "text": "Shahapur, Maharashtra"
+    },
+    {
+        "image": "Images/Communities/white2.jpeg",
+        "heading": "White Villas Kasara",
+        "text": "Kasara, Maharashtra"
+    },
+    {
+        "image": "Images/Communities/puravankara.jpeg",
+        "heading": "Puravankara Adora De Goa",
+        "text": "Dabolim, Goa"
+    },
+    {
+        "image": "Images/Communities/umiya.jpeg",
+        "heading": "Umiya Serene",
+        "text": "Nerul, Goa"
+    },
+    {
+        "image": "Images/Communities/oasis.jpeg",
+        "heading": "Oasis Alibaug",
+        "text": "Alibag, Maharashtra"
+    },
+    {
+        "image": "Images/Communities/dreamz.jpeg",
+        "heading": "Dreamz Shiroda",
+        "text": "Shiroda, Maharashtra"
+    },
+    {
+        "image": "Images/Communities/pristine.jpeg",
+        "heading": "Pristine Bay Mahabalipuram",
+        "text": "Thenpattinam, Tamil Nadu"
+    },
+    {
+        "image": "Images/Communities/ampelon.jpeg",
+        "heading": "Ampelon Chikkaballapur",
+        "text": "Chikkaballapur, Karnataka"
+    }
+],
+"card1Data":[
+    {
+        "image": "Images/card1/housekeeper.svg",
+        "text": "High Quality housekeeping"
+    },
+    {
+        "image": "Images/card1/towel.svg",
+        "text": "Comfortable Linen and Toiletries"
+    },
+    {
+        "image": "Images/card1/bed.svg",
+        "text": "Quality Furniture & Fittings"
+    },
+    {
+        "image": "Images/card1/dinner.svg",
+        "text": "Food Delivery Or Central Restaurant"
+    }
+],
+"card2Data":[
+    {
+        "image": "Images/card2/growth.svg",
+        "text": "Low Cost High Appreciation"
+    },
+    {
+        "image": "Images/card2/maids.svg",
+        "text": "Professionally Managed"
+    },
+    {
+        "image": "Images/card2/give-money.svg",
+        "text": "Guaranteed To Produce Income"
+    },
+    {
+        "image": "Images/card2/plan.svg",
+        "text": "We Designed Floor Plans"
+    }
+],
+"card3Data":[
+    {
+        "image": "Images/card3/network.svg",
+        "text": "Get Bookings From 100+ Websites"
+    },
+    {
+        "image": "Images/card3/layout.svg",
+        "text": "One Dashboard - Total Control"
+    },
+    {
+        "image": "Images/card3/flash.svg",
+        "text": "Instant Book Or Request To Book"
+    },
+    {
+        "image": "Images/card3/smartphone-call.svg",
+        "text": "Both iOS & Android App Available."
+    }
+],
+"VacationIdeasData":[
+    {
+      "image": "Images/VacationIdeas/phuket.jpg",
+      "heading": "Phuket's Best Pool Villas"
+    },
+    {
+      "image": "Images/VacationIdeas/coorg.jpg",
+      "heading": "Coorg Homestays"
+    },
+    {
+      "image": "Images/VacationIdeas/family.jpg",
+      "heading": "Family Bungalows in Lonavala"
+    },
+    {
+      "image": "Images/VacationIdeas/bali.jpg",
+      "heading": "Bali Family Villas"
+    },
+    {
+      "image": "Images/VacationIdeas/sri_lanka.jpg",
+      "heading": "Sri Lanka - Rural solitude and luxury combined"
+    },
+    {
+      "image": "Images/VacationIdeas/apartments.jpg",
+      "heading": "Apartments near the Louvre in Paris"
+    },
+    {
+      "image": "Images/VacationIdeas/cheap.png",
+      "heading": "Cheap & Affordable Homestays & Resorts in Sakleshpur"
+    },
+    {
+      "image": "Images/VacationIdeas/luxury.jpg",
+      "heading": "Luxury Vacation in Goa"
+    },
+    {
+      "image": "Images/VacationIdeas/top.jpeg",
+      "heading": "Top Homestays and resorts in Chikmagalur"
+    },
+    {
+      "image": "Images/VacationIdeas/nilgris.jpg",
+      "heading": "Escape to the Nilgiris - Homestays, Resorts, Cottages in Coonoor"
+    }
+  ],
+  "FooterData":[
+    {
+      "heading": "India",
+      "text": "3262 holiday homes"
+    },
+    {
+      "heading": "Thailand",
+      "text": "1284 holiday homes"
+    },
+    {
+      "heading": "Sri Lanka",
+      "text": "646 holiday homes"
+    },
+    {
+      "heading": "Indonesia",
+      "text": "622 holiday homes"
+    },
+    {
+      "heading": "Philippines",
+      "text": "378 holiday homes"
+    },
+    {
+      "heading": "United Arab Emirates",
+      "text": "146 holiday homes"
+    },
+    {
+      "heading": "Georgia",
+      "text": "102 holiday homes"
+    },
+    {
+      "heading": "Turkey",
+      "text": "70 holiday homes"
+    },
+    {
+      "heading": "Israel",
+      "text": "53 holiday homes"
+    },
+    {
+      "heading": "Malaysia",
+      "text": "49 holiday homes"
+    },
+    {
+      "heading": "Japan",
+      "text": "46 holiday homes"
+    },
+    {
+      "heading": "Viet Nam",
+      "text": "37 holiday homes"
+    },
+    {
+      "heading": "Cambodia",
+      "text": "26 holiday homes"
+    },
+    {
+      "heading": "Nepal",
+      "text": "22 holiday homes"
+    },
+    {
+      "heading": "Maldives",
+      "text": "19 holiday homes"
+    },
+    {
+      "heading": "Taiwan, Province Of China",
+      "text": "17 holiday homes"
+    },
+    {
+      "heading": "Hong Kong Special Administrative Region Of China",
+      "text": "16 holiday homes"
+    },
+    {
+      "heading": "Republic Of Korea",
+      "text": "12 holiday homes"
+    },
+    {
+      "heading": "Oman",
+      "text": "7 holiday homes"
+    },
+    {
+      "heading": "Bangladesh",
+      "text": "5 holiday homes"
+    }
+  ]
+}
