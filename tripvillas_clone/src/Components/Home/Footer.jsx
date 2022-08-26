@@ -17,8 +17,8 @@ const Footer = () => {
     }
     return (
         <>
-            <Box border={'1px solid black'} px={'70px'} pt={'80px'} pb={'40px'} >
-                <Text pb={'20px'} fontSize={'22.5px'}>Holiday Homes Across The Globe</Text>
+            <Box px={'70px'} pt={'80px'} pb={'40px'} >
+                <Text pb={'20px'} color={'#484848'} fontSize={'22.5px'}>Holiday Homes Across The Globe</Text>
                 <Box>
                     <Flex gap={'20px'} fontSize={'13.125px'} color={'#6c757d'}>{divs}</Flex>
                     <hr pb={'20px'} />
@@ -26,7 +26,7 @@ const Footer = () => {
                         {
                             data.map((e, i) => (
                                 <Box key={i} width={'180px'}>
-                                    <Text fontSize={'15px'}>{e.heading}</Text>
+                                    <Text fontSize={'15px'} color={'#484848'}>{e.heading}</Text>
                                     <Text fontSize={'13.125'} color={'#6c757d'}>{e.text}</Text>
                                 </Box>
                             ))

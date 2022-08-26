@@ -17,7 +17,7 @@ export default function Slider({ data, h, handleIncrement, handleDecrement, star
         data &&
         <>
             <Box>
-                <Text pl={'70px'} pt={10} fontSize={'22.5px'} fontWeight={'.875rem'} color={'#6c757d'}>{h}</Text>
+                <Text pl={'70px'} pt={10} fontSize={'22.5px'} fontWeight={'.875rem'} color={'#484848'}>{h}</Text>
                 <Flex p={5} alignItems={'center'} justifyContent={'space-between'}>
                     <svg cursor={'pointer'} onClick={handleDecrement} width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#989898" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg>
                     {

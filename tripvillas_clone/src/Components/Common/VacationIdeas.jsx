@@ -27,7 +27,7 @@ const TopDestinations = () => {
 
     return (
         <>
-            <Box border={'1px solid red'}>
+            <Box>
                 <Slider h={'Vacation Ideas'} data={data} handleIncrement={handleIncrement} handleDecrement={handleDecrement} start={start} end={end} />
                 <Link color={'#39f'} pl={'70px'} fontSize={'13.125px'}>SHOW ALL IDEAS</Link>
             </Box>

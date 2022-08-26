@@ -4,14 +4,14 @@ const Card = ({ data, h, bt }) => {
     return (
         data &&
         <>
-            <Box border={'1px solid green'} p={'40px'} textAlign={'center'}>
-                <Text mb={'20px'} border={'1px solid green'} fontSize={'1.5rem'}>{h}</Text>
-                <Flex border={'1px solid red'} flexWrap={'wrap'}>
+            <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
+                <Text mb={'20px'} color={'#484848'} fontWeight={'.875rem'} fontSize={'1.5rem'}>{h}</Text>
+                <Flex flexWrap={'wrap'} justifyContent={'space-between'}>
                     {
                         data.map((e, i) => (
-                            <Box border={'1px solid black'} w={'120px'}>
+                            <Box w={'115px'} pb={'10px'}>
                                 <Image src={e.image} height={'40px'} width={'40px'} alt={e.image} m={'auto'} />
-                                <Text color={'#6c757d'}>{e.text}</Text>
+                                <Text color={'#6c757d'} pt={'20px'} fontSize={'15px'} lineHeight={1.5} fontWeight={'.875rem'}>{e.text}</Text>
                             </Box>
                         ))
                     }
