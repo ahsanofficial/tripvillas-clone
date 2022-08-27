@@ -51,7 +51,7 @@ const Communities = () => {
             {
               communitiesData.map((e, i) => (
                 <Flex key={i} backgroundImage={`url(${e.image})`} style={style}>
-                  <Box p={'30px'} >
+                  <Box p={'30px'} cursor={'pointer'}>
                     <Text fontSize={'15px'} fontWeight={'bolder'}>{e.heading}</Text>
                     <Text fontSize={'13.125px'}>{e.text}</Text>
                   </Box>

@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react"
+import { Box, Divider, Flex, Text } from "@chakra-ui/react"
 import axios from "axios"
 import { useEffect, useState } from "react"
 
@@ -21,7 +21,7 @@ const Footer = () => {
                 <Text pb={'20px'} color={'#484848'} fontSize={'22.5px'}>Holiday Homes Across The Globe</Text>
                 <Box>
                     <Flex gap={'20px'} fontSize={'13.125px'} color={'#6c757d'}>{divs}</Flex>
-                    <hr pb={'20px'} />
+                    <Divider />
                     <Flex flexWrap={'wrap'} gap={'10px'} py={'40px'}>
                         {
                             data.map((e, i) => (

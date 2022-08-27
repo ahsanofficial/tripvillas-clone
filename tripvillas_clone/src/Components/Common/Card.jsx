@@ -17,7 +17,7 @@ const Card = ({ data, h, bt }) => {
                     }
                 </Flex>
                 {
-                    bt && <Button borderRadius={0} px={'30px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} mt={'20px'}>{bt}</Button>
+                    bt && <Button borderRadius={0} px={'30px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>search</Button>
                 }
             </Box>
         </>

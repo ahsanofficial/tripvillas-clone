@@ -22,7 +22,7 @@ export default function Slider({ data, h, handleIncrement, handleDecrement, star
                     <svg cursor={'pointer'} onClick={handleDecrement} width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#989898" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg>
                     {
                         data.map((e, i) => (
-                            start <= i && i < end && <Flex key={i} backgroundImage={`url(${e.image})`} style={style}>
+                            start <= i && i < end && <Flex cursor={'pointer'} key={i} backgroundImage={`url(${e.image})`} style={style}>
                                 <Box>
                                     <Text fontSize={'22.5px'}>{e.heading}</Text>
                                     <Text fontSize={'13.125px'}>{e.text}</Text>
