@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Grid, SimpleGrid, Text } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from './Card';
@@ -34,7 +34,9 @@ const Communities = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white',
-    textAlign: 'center'
+    textAlign: 'center',
+    filter: 'brightness(85%)',
+    color: 'rgb(255,255,255)'
   }
 
   return (
@@ -46,7 +48,7 @@ const Communities = () => {
         <SimpleGrid columns={[1, 1, 1, 2]} spacing={10} px={'60px'} py={'40px'}>
           <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
             <Text mb={'20px'} color={'#484848'} fontWeight={'.875rem'} fontSize={'1.5rem'}>Fully Managed Communities By Tripvillas</Text>
-            <SimpleGrid columns={[2, 4, 2, 2]} justifyContent={'space-between'}>
+            <SimpleGrid columns={[1, 2, 4, 2]} justifyContent={'space-between'}>
               <Card data={Card1Data} />
             </SimpleGrid>
           </Box>
@@ -70,22 +72,24 @@ const Communities = () => {
 
 
 
-        <SimpleGrid columns={[1, 1, 2, 2]} gap={10} px={'60px'} py={'40px'} >
+        <SimpleGrid columns={[1, 1, 1, 2]} gap={10} px={'60px'} py={'40px'} >
           <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
             <Text mb={'20px'} color={'#484848'} fontWeight={'.875rem'} fontSize={'1.5rem'}>Holiday Home Investment Opportunities</Text>
-            <SimpleGrid columns={[2, 4, 4, 4]} justifyContent={'space-between'}>
-              <Card data={Card2Data} bt={'EXPLORE INVESTMENT OPPORTUNITIES'} />
+            <SimpleGrid columns={[1, 2, 4, 4]} justifyContent={'space-between'}>
+              <Card data={Card2Data} />
             </SimpleGrid>
+            <Button mt={'20px'} borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>EXPLORE INVESTMENT OPPORTUNITIES</Button>
           </Box>
 
           <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
             <Text mb={'20px'} color={'#484848'} fontWeight={'.875rem'} fontSize={'1.5rem'}>Are You A Holiday Home Owner/Manager?</Text>
-            <SimpleGrid columns={[2, 4, 4, 4]} justifyContent={'space-between'}>
-              <Card data={Card3Data} bt={'List Your Property'} />
+            <SimpleGrid columns={[1, 2, 4, 4]} justifyContent={'space-between'}>
+              <Card data={Card3Data} />
             </SimpleGrid>
+            <Button mt={'20px'} borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>LIST YOUR PROPERTY</Button>
           </Box>
         </SimpleGrid>
-      </Box>
+      </Box >
 
 
     </>

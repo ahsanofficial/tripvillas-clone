@@ -1,5 +1,4 @@
-import { Alert, AlertDescription, AlertIcon, AlertTitle, Box, Button, Flex, Input, SimpleGrid, Text } from "@chakra-ui/react"
-import { useEffect, useState } from "react"
+import { Box, Button, Flex, Input, SimpleGrid, Text } from "@chakra-ui/react"
 
 const BooksHotels = () => {
     const style = {
@@ -10,17 +9,8 @@ const BooksHotels = () => {
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
-        padding: '140px'
+        padding: '140px 80px',
     }
-
-    const [flag, setFlag] = useState(false)
-
-    // useEffect(() => {
-    //     first
-
-
-    // }, [])
-
 
     return (
         <>
@@ -76,7 +66,7 @@ const BooksHotels = () => {
                                 </Box>
                             </Box>
                         </Flex>
-                        <Button onClick={() => setFlag(true)} borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>search</Button>
+                        <Button borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>search</Button>
                     </SimpleGrid>
                 </Box>
             </Flex >

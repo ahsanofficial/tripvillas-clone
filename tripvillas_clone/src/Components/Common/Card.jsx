@@ -1,10 +1,9 @@
 import { Box, Button, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react"
 
-const Card = ({ data, h, bt }) => {
+const Card = ({ data, bt }) => {
     return (
         data &&
         <>
-
             {
                 data.map((e, i) => (
                     <Box pb={'10px'}>
@@ -13,7 +12,6 @@ const Card = ({ data, h, bt }) => {
                     </Box>
                 ))
             }
-
         </>
     )
 }

@@ -33,8 +33,6 @@ const Footer = () => {
                         }
                     </Flex>
                 </Box>
-
-
             </Box>
         </>
     )
