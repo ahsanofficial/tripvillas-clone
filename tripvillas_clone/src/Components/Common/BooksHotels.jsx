@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertIcon, AlertTitle, Box, Button, Flex, Input, Text } from "@chakra-ui/react"
+import { Alert, AlertDescription, AlertIcon, AlertTitle, Box, Button, Flex, Input, SimpleGrid, Text } from "@chakra-ui/react"
 import { useEffect, useState } from "react"
 
 const BooksHotels = () => {
@@ -6,10 +6,11 @@ const BooksHotels = () => {
         backgroundImage: `url(Images/booksHotels.jpg)`,
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
-        height: '450px',
+        height: 'auto',
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
+        padding: '140px'
     }
 
     const [flag, setFlag] = useState(false)
@@ -24,10 +25,12 @@ const BooksHotels = () => {
     return (
         <>
             <Flex style={style}>
-                <Box color={'white'} fontSize={30} fontWeight={'bold'}>
-                    <Text>Book <Text as='del'>Hotels</Text> Vacation Rentals</Text>
-                    <Text>Top Holiday Homes - Villas, Apartments & Homestays</Text>
-                    <Flex color={'#666'} bgColor={'white'} p={'10px'}>
+                <Box w={'60%'} m={'auto'} color={'white'} fontSize={30} fontWeight={'bold'}>
+                    <Box>
+                        <Text>Book <Text as='del'>Hotels</Text> Vacation Rentals</Text>
+                        <Text>Top Holiday Homes - Villas, Apartments & Homestays</Text>
+                    </Box>
+                    <SimpleGrid columns={[1, 1, 1, 5]} color={'#666'} bgColor={'white'} p={'10px'}>
                         <Flex alignItems={'center'} border={'1px solid #e2d7d7'} pl={'10px'}>
                             <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search"><circle fill="none" stroke="#a39d9d" stroke-width="1.1" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#a39d9d" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path></svg>
                             <Input variant={'none'} value={''} placeholder='Location' />
@@ -74,7 +77,7 @@ const BooksHotels = () => {
                             </Box>
                         </Flex>
                         <Button onClick={() => setFlag(true)} borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>search</Button>
-                    </Flex>
+                    </SimpleGrid>
                 </Box>
             </Flex >
         </>

@@ -20,7 +20,7 @@ const Footer = () => {
             <Box px={'70px'} pt={'80px'} pb={'40px'} >
                 <Text pb={'20px'} color={'#484848'} fontSize={'22.5px'}>Holiday Homes Across The Globe</Text>
                 <Box>
-                    <Flex gap={'20px'} fontSize={'13.125px'} color={'#6c757d'}>{divs}</Flex>
+                    <Flex wrap={'wrap'} gap={'20px'} fontSize={'13.125px'} color={'#6c757d'}>{divs}</Flex>
                     <Divider />
                     <Flex flexWrap={'wrap'} gap={'10px'} py={'40px'}>
                         {
