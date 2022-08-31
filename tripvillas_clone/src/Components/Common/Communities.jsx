@@ -1,6 +1,6 @@
-import { Box, Button, Flex, Grid, SimpleGrid, Text } from "@chakra-ui/react";
-import axios from "axios";
+import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import { getCard1Data, getCard2Data, getCard3Data, getCommunitiesData } from "../../utilities/api";
 import Card from './Card';
 
 const Communities = () => {
@@ -9,21 +9,11 @@ const Communities = () => {
   const [Card2Data, setCard2Data] = useState([])
   const [Card3Data, setCard3Data] = useState([])
 
-
   useEffect(() => {
-    axios.get("http://localhost:3001/CommunitiesData").then(res => setCommunitiesData(res.data))
-  }, [])
-
-  useEffect(() => {
-    axios.get("http://localhost:3001/card1Data").then(res => setCard1Data(res.data))
-  }, [])
-
-  useEffect(() => {
-    axios.get("http://localhost:3001/card2Data").then(res => setCard2Data(res.data))
-  }, [])
-
-  useEffect(() => {
-    axios.get("http://localhost:3001/card3Data").then(res => setCard3Data(res.data))
+    getCommunitiesData().then(res => setCommunitiesData(res.data))
+    getCard1Data().then(res => setCard1Data(res.data))
+    getCard2Data().then(res => setCard2Data(res.data))
+    getCard3Data().then(res => setCard3Data(res.data))
   }, [])
 
   const style = {
@@ -33,7 +23,6 @@ const Communities = () => {
     textShadow: '0 0 20px black',
     alignItems: 'center',
     justifyContent: 'center',
-    color: 'white',
     textAlign: 'center',
     filter: 'brightness(85%)',
     color: 'rgb(255,255,255)'
@@ -43,8 +32,6 @@ const Communities = () => {
     communitiesData &&
     <>
       <Box>
-
-
         <SimpleGrid columns={[1, 1, 1, 2]} spacing={10} px={'60px'} py={'40px'}>
           <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
             <Text mb={'20px'} color={'#484848'} fontWeight={'.875rem'} fontSize={'1.5rem'}>Fully Managed Communities By Tripvillas</Text>
@@ -68,10 +55,6 @@ const Communities = () => {
         </SimpleGrid>
 
 
-
-
-
-
         <SimpleGrid columns={[1, 1, 1, 2]} gap={10} px={'60px'} py={'40px'} >
           <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
             <Text mb={'20px'} color={'#484848'} fontWeight={'.875rem'} fontSize={'1.5rem'}>Holiday Home Investment Opportunities</Text>
@@ -90,8 +73,6 @@ const Communities = () => {
           </Box>
         </SimpleGrid>
       </Box >
-
-
     </>
   );
 };

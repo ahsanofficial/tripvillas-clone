@@ -1,6 +1,6 @@
 import { Box, Link } from '@chakra-ui/react'
-import axios from 'axios'
 import { useEffect, useState } from "react"
+import { getVacationIdeasData } from '../../utilities/api'
 import Slider from "./Slider"
 
 const TopDestinations = () => {
@@ -9,7 +9,7 @@ const TopDestinations = () => {
     const [end, setEnd] = useState(5)
 
     useEffect(() => {
-        axios.get("http://localhost:3001/VacationIdeasData").then(res => setData(res.data)).catch(err => console.log('err', err))
+        getVacationIdeasData().then(res => setData(res.data)).catch(err => console.log('err', err))
     }, [])
 
     function handleIncrement() {
@@ -22,8 +22,6 @@ const TopDestinations = () => {
         setStart(start - 1)
         setEnd(end - 1)
     }
-
-
 
     return (
         <>

@@ -1,5 +1,5 @@
-import axios from 'axios'
 import { useEffect, useState } from "react"
+import { getTopDestinationsData } from '../../utilities/api'
 import Slider from "./Slider"
 
 const TopDestinations = () => {
@@ -8,7 +8,7 @@ const TopDestinations = () => {
     const [end, setEnd] = useState(5)
 
     useEffect(() => {
-        axios.get("http://localhost:3001/TopDestinationsData").then(res => setData(res.data))
+        getTopDestinationsData().then(res => setData(res.data))
     }, [])
 
     function handleIncrement() {
@@ -21,8 +21,6 @@ const TopDestinations = () => {
         setStart(start - 1)
         setEnd(end - 1)
     }
-
-
 
     return (
         <>

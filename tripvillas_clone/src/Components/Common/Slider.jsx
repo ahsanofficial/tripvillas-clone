@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, SimpleGrid, Text } from "@chakra-ui/react"
+import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react"
 import React from 'react'
 
 export default function Slider({ data, h, handleIncrement, handleDecrement, start, end }) {
