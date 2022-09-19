@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tripvillas-clone/static/css/main.073c9b0a.css",
+    "main.js": "/tripvillas-clone/static/js/main.753a6e92.js",
+    "static/js/787.5fbbef38.chunk.js": "/tripvillas-clone/static/js/787.5fbbef38.chunk.js",
+    "index.html": "/tripvillas-clone/index.html",
+    "main.073c9b0a.css.map": "/tripvillas-clone/static/css/main.073c9b0a.css.map",
+    "main.753a6e92.js.map": "/tripvillas-clone/static/js/main.753a6e92.js.map",
+    "787.5fbbef38.chunk.js.map": "/tripvillas-clone/static/js/787.5fbbef38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.753a6e92.js"
+  ]
+}
