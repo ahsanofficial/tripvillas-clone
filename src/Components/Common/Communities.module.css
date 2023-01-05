@@ -1,0 +1,20 @@
+.btn{
+    font-size: 13.125px;
+    font-weight:'.875rem';
+    margin-top: 20px;
+    padding: 23px 35px;
+}
+@media only screen and (max-width: 500px){
+    .btn{
+        font-size: 10px;
+    padding: 3px 15px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .btn{
+        font-size: 8px;
+    padding: 3px 5px;
+    word-wrap: break-word;
+    width: 100%;
+    }
+}

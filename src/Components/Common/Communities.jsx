@@ -2,6 +2,7 @@ import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { getCard1Data, getCard2Data, getCard3Data, getCommunitiesData } from "../../utilities/api";
 import Card from './Card';
+import styled from './Communities.module.css'
 
 const Communities = () => {
   const [communitiesData, setCommunitiesData] = useState([])
@@ -61,7 +62,7 @@ const Communities = () => {
             <SimpleGrid columns={[1, 2, 4, 4]} justifyContent={'space-between'}>
               <Card data={Card2Data} />
             </SimpleGrid>
-            <Button mt={'20px'} borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>EXPLORE INVESTMENT OPPORTUNITIES</Button>
+            <Button className={styled.btn} textTransform={'uppercase'} borderRadius={0} color={'white'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>EXPLORE INVESTMENT OPPORTUNITIES</Button>
           </Box>
 
           <Box p={'40px'} textAlign={'center'} boxShadow={'0 5px 15px rgb(0 0 0 / 8%)'}>
@@ -69,7 +70,7 @@ const Communities = () => {
             <SimpleGrid columns={[1, 2, 4, 4]} justifyContent={'space-between'}>
               <Card data={Card3Data} />
             </SimpleGrid>
-            <Button mt={'20px'} borderRadius={0} px={'35px'} py={'23px'} fontSize={'13.125px'} textTransform={'uppercase'} color={'white'} fontWeight={'.875rem'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>LIST YOUR PROPERTY</Button>
+            <Button className={styled.btn} mt={'20px'} borderRadius={0} textTransform={'uppercase'} color={'white'} bgColor={'#1e87f0'} _hover={{ background: '#0760b9' }}>LIST YOUR PROPERTY</Button>
           </Box>
         </SimpleGrid>
       </Box >

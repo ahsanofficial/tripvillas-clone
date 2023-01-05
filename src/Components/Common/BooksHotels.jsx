@@ -1,4 +1,5 @@
 import { Box, Button, Flex, Input, SimpleGrid, Text } from "@chakra-ui/react"
+import styled from './BooksHotels.module.css'
 
 const BooksHotels = () => {
     const style = {
@@ -9,13 +10,13 @@ const BooksHotels = () => {
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
-        padding: '140px 80px',
+        padding: '140px 80px'
     }
 
     return (
         <>
             <Flex style={style}>
-                <Box w={'60%'} m={'auto'} color={'white'} fontSize={30} fontWeight={'bold'}>
+                <Box className={styled.hotel} m={'auto'} color={'white'} fontSize={30} fontWeight={'bold'}>
                     <Box>
                         <Text>Book <Text as='del'>Hotels</Text> Vacation Rentals</Text>
                         <Text>Top Holiday Homes - Villas, Apartments & Homestays</Text>
